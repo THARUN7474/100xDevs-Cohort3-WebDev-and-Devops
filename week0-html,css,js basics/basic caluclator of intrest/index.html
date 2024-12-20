@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .main-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #c13f3f;
+        }
+        .box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            width: 400px;
+            height: 400px;
+            border-radius: 5px;
+            background-color: antiquewhite;
+        }
+        .box1{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            flex-basis: 30%;
+            /* flex-basis: 20%; */
+        }
+        .box3{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex-basis: 40%;
+            /* flex-basis: 20%; */
+        }
+        button{
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>basics simple intrest / compund intrest calculator</h1>
+    <div class="main-box">
+        <div class="box">
+            <div class="box1">
+                <button>capital</button>
+                <button>years</button>
+                <button>Intrest</button>
+            </div>
+            <div class="box2">
+                <button>
+                    4CR
+                </button>
+            </div>
+        </div>
+        <div class="box3">
+            <button>calculate</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
